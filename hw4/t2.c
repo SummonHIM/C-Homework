@@ -3,19 +3,19 @@
 int main()
 {
     float iptA, iptB, iptC;
-    printf("é”®å…¥æ•°ç»„ï¼Œæ•°ç»„ä¸Šé™ä¸º3ï¼Œä½¿ç”¨åŠè§’ç©ºæ ¼åˆ†éš”ï¼š");
+    printf("¼üÈëÊı×é£¬Êı×éÉÏÏŞÎª3£¬Ê¹ÓÃ°ë½Ç¿Õ¸ñ·Ö¸ô£º");
     scanf("%f,%f,%f", &iptA, &iptB, &iptC);
-    printf("æ•°ç»„å†…å®¹ï¼š[%f, %f, %f]\n", iptA, iptB, iptC);
+    printf("Êı×éÄÚÈİ£º[%f, %f, %f]\n", iptA, iptB, iptC);
     if (iptA - iptB <= 0 && iptA - iptC <= 0)
     {
-        printf("æœ€å°å€¼ä¸ºï¼š%f", iptA);
+        printf("×îĞ¡ÖµÎª£º%f", iptA);
     }
     else if (iptB - iptC <= 0)
     {
-        printf("æœ€å°å€¼ä¸ºï¼š%f", iptB);
+        printf("×îĞ¡ÖµÎª£º%f", iptB);
     }
     else
     {
-        printf("æœ€å°å€¼ä¸ºï¼š%f", iptC);
+        printf("×îĞ¡ÖµÎª£º%f", iptC);
     }
 }
