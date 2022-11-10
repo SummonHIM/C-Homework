@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	int sumwhile=0, sumdo, sumfor, roll=1;
+	int sumwhile=0, sumdo=0, sumfor=0, roll=1;
 	while (roll<=50) {
 		sumwhile = sumwhile + roll;
 		roll++;
@@ -16,6 +16,7 @@ int main() {
 	printf("sumdo=%d\n", sumdo);
 
 	for (roll=1; roll<=50; roll++) {
-	
+		sumfor=sumfor+roll;
 	}
+	printf("sumfor=%d", sumfor);
 }
